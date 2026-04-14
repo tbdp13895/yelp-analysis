@@ -218,7 +218,7 @@ Raw Yelp files are excluded due to file size. To reproduce the full pipeline:
 
 **Emma Tran**
 
-🔗 LinkedIn: linkedin.com/in/tbdp138
-📧 Email: tbdp13895@gmail.com
+🔗 [LinkedIn](https://linkedin.com/in/tbdp138)
+📧 [Email](mailto:tbdp13895@gmail.com)
 
 **Open to Data Analyst / Business Analyst opportunities**
