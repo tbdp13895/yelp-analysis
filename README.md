@@ -1,4 +1,4 @@
-#  Restaurant Market Opportunity Analysis
+# Restaurant Market Opportunity Analysis
 
 ##  Overview
 
@@ -40,9 +40,9 @@ This project identifies the **best cities for restaurant expansion** using a dat
 ```
 ---
 
-## 🔄 Data Pipeline (ETL)
+##  Data Pipeline (ETL)
 
-The data pipeline processes large-scale Yelp data using **Google BigQuery**.
+- Leveraged BigQuery to process large-scale Yelp data (~7M reviews), enabling efficient aggregation and feature engineering
 
 ### Extract
 - Imported Yelp business and review datasets into BigQuery  
@@ -63,7 +63,7 @@ SQL queries used for data extraction and transformation are stored in the `sql/`
 
 ---
 
-### ⚙️ Technologies Used (Pipeline)
+###  Technologies Used (Pipeline)
 
 - **Google BigQuery**
 - **SQL**
@@ -71,7 +71,7 @@ SQL queries used for data extraction and transformation are stored in the `sql/`
 
 ---
 
-## 📊 Dashboard Preview
+##  Dashboard Preview
 
 ![Dashboard](dashboard/yelp-analysis-dashboard.png)
 
@@ -79,7 +79,7 @@ SQL queries used for data extraction and transformation are stored in the `sql/`
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 ### Feature Engineering
 
@@ -102,13 +102,12 @@ The model was iteratively refined:
 - **V4 (Final)**: Balanced model reducing feature redundancy  
 
 #### ✅ Final Model (V4)
-Opportunity Score =
-0.45 × Demand
 
-0.30 × (1 − Competition)
-0.20 × Rating
-0.05 × Sentiment
-
+**Opportunity Score =  
+0.45 × Demand  
++ 0.30 × (1 − Competition)  
++ 0.20 × Rating  
++ 0.05 × Sentiment**
 ---
 
 ### Model Validation
@@ -123,7 +122,7 @@ Opportunity Score =
 
 ---
 
-## 📊 Power BI Dashboard
+##  Power BI Dashboard
 
 The dashboard is designed for **decision support**.
 
@@ -136,7 +135,7 @@ The dashboard is designed for **decision support**.
 
 ---
 
-### 🔥 Key Design Choice
+###  Key Design Choice
 
 Instead of average lines, **constant thresholds (0.3)** define decision boundaries:
 
@@ -148,7 +147,7 @@ Instead of average lines, **constant thresholds (0.3)** define decision boundari
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 - High-demand cities tend to also have high competition  
 - Rating and sentiment are strongly correlated and provide limited additional signal  
@@ -168,13 +167,13 @@ Smaller high-rating cities were deprioritized due to limited demand and scalabil
 
 ---
 
-## 🧠 Key Takeaway
+##  Key Takeaway
 
 > The most attractive markets are those that balance strong demand with manageable competition, rather than relying on high ratings alone.
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - Python (Pandas, Scikit-learn, Matplotlib)  
 - Power BI  
@@ -183,7 +182,7 @@ Smaller high-rating cities were deprioritized due to limited demand and scalabil
 
 ---
 
-## 🚀 Project Highlights
+##  Project Highlights
 
 - Built a **multi-stage opportunity model (V1 → V4)**  
 - Designed an **ETL pipeline using BigQuery**  
@@ -194,7 +193,7 @@ Smaller high-rating cities were deprioritized due to limited demand and scalabil
 
 ---
 
-## 🎯 Business Value
+##  Business Value
 
 This project demonstrates how data can be used to:
 
@@ -222,7 +221,7 @@ Raw Yelp files are excluded due to file size. To reproduce the full pipeline:
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 ---
 
