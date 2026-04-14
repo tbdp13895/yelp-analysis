@@ -212,14 +212,6 @@ Raw Yelp files are excluded due to file size. To reproduce the full pipeline:
 - Load the data into Google BigQuery  
 
 ---
----
-### ⚙️ Environment Setup
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-
 🏁
 
 👉 This project demonstrates end-to-end analytical thinking from data processing to business decision-making.
