@@ -104,10 +104,7 @@ The model was iteratively refined:
 #### ✅ Final Model (V4)
 
 **Opportunity Score =  
-0.45 × Demand  
-+ 0.30 × (1 − Competition)  
-+ 0.20 × Rating  
-+ 0.05 × Sentiment**
+0.45 × Demand + 0.30 × (1 − Competition) + 0.20 × Rating + 0.05 × Sentiment**
 ---
 
 ### Model Validation
