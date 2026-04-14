@@ -1,19 +1,19 @@
-# 🍽️ Restaurant Market Opportunity Analysis
+#  Restaurant Market Opportunity Analysis
 
-## 📌 Overview
+##  Overview
 
 This project identifies the **best cities for restaurant expansion** using a data-driven approach based on Yelp data. It combines market demand, competition, and customer perception into a unified **Opportunity Score**, and presents insights through Python analysis and a Power BI dashboard.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 > Identify cities with the most favorable market conditions for restaurant expansion by balancing demand, competition, and customer satisfaction.
 
 ---
 
 ## 📁 Project Structure
-YELP-ANALYSIS/
+```YELP-ANALYSIS/
 │
 ├── dashboard/
 │ ├── yelp-analysis-dashboard.pbix
@@ -37,7 +37,7 @@ YELP-ANALYSIS/
 │ └── export_review_table.sql
 │
 ├── README.md
-
+```
 ---
 
 ## 🔄 Data Pipeline (ETL)
